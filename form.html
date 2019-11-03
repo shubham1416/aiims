@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OPD form</title>
+	<link rel="stylesheet" type="text/css" href="style_form.css">
+</head>
+<body bgcolor="DOGGERBLUE">
+	<img src="img/aiims.png" style="float: right; height: 47px; background-color: white;">
+	<sec align="center" style="color: white;">All India Institute of Medical Science, New Delhi</sec><hr>
+	<a href="home.html"><input type="button" value="Home"></a>
+	<marquee style="background-color: BLUE; color: red;">OUT PATIENT DEPARTMENT FORM</marquee>
+	<img src="img/opd_info.jpg" style=" height: 120px; width: 400px; float: right;">
+	<br><br><br><br><br>
+	<h2><u>Enter Your Details</u></h2><br>
+	<div>
+	<form name="opd_form" onsubmit="opd()">
+		First Name     : <input type="textbox" name="first_name" maxlength="15"  style="margin-left: 30px;" required><br><br>
+		Last Name      : <input type="textbox" name="last_name" maxlength="15"  style="margin-left: 31px;" required><br><br>
+		Father's Name  : <input type="textbox" name="Father_name" maxlength="15"  style="margin-left: 10px;" required><br><br>
+		Date Of Birth  : <input type="date" name="bdaymnth" style="margin-left: 15px;" required><br><br>
+		Phone no.      : <input type="tel" name="phone" maxlength="10" style="margin-left: 38px;" required><br><br>
+		Address        : <input type="textbox" name="address" maxlength="50"  style="margin-left: 50px; height: 50px; width: 200px;" required><br><br>
+		<input type="submit" name="submit">
+	</form>
+</div>
+<br><br><br><br><br><br>
+<h1>Sample OPD Card</h1>
+<table border="1px" align="center" bgcolor="white">
+	<tr><td colspan="4"><b>PATIENT UHID CARD</b></td></tr>
+	<tr><td><img src="img/aiims_logo.jpg" style="height: 50px; width: 50px; float: left; padding: 0px"></td>
+		<td></td>
+		<td colspan="2"><img src="img/barcode.jpg" style="height: 30px; width: 200px; float: right;"></td></tr>
+	<tr><td>Name : </td>
+		<td>SHUBHAM</td><td> UHID : </td><td>102401145</td>
+	</tr>
+	<tr><td>S/O - </td>
+		<td>MR VIJAY MOHAN</td>
+		<td colspan="2"></td></tr>
+	<tr><td>Phone No. </td>
+		<td>8307152041</td>
+		<td> Date Of Birth </td><td>6 DEC 1997</td></tr>
+	<tr><td>Address : </td>
+		<td colspan="3">AT RAILWAY COLONY JUDW , HARYANA INDIA</td></tr>
+	<tr><td>IVRS</td>
+		<td>WEBSITE</td>
+		<td>CALL CENTRE</td>
+		<td>AIIMS@Delhi</td></tr>
+	<tr><td>011-26589999</td>
+		<td>www.aiims.edu</td>
+		<td>011-65900669</td>
+		<td>APP</td></tr>
+</table>
+</body>
+</html>
