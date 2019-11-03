@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home page</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body bgcolor="blue">
+	<img src="img/aiims.png" style="float: right; height: 58px; background-color: white;">
+	<section>AIIMS</section>
+	 <ul>
+	 	<li class="dropdown"><a href="home.html" class="dropbtn">Home</a>
+	 		<div class="dropdown-content">
+	 			<a href="intro.html">About Us</a>
+	 			<a href="history.html">History</a>
+	 			<a href="director.html">Directors</a></div></li>
+	 	<li><a href="department.html">Departments</a></li>
+	 	<li><a href="form.html">Appointment</a></li>
+	 	<li><a href="patient_care.html">Patient Care</a></li>
+	 	<li><a href="contact.html">Contact</a></li>
+	 </ul>
+<img class="mySlides" src="img/slider1.jpg" style="width: 100%; height: 400px;">
+<img class="mySlides" src="img/slider2.jpg" style="width: 100%; height: 400px;">
+<img class="mySlides" src="img/slider3.jpg" style="width: 100%; height: 400px;">
+<img class="mySlides" src="img/slider4.jpg" style="width: 100%; height: 400px;">
+<img class="mySlides" src="img/slider5.jpg" style="width: 100%; height: 400px;">
+<script type="text/javascript">
+		var slideIndex = 0;
+	carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+	</script>
+	 <br>
+	 <br>
+	 <para>All-India Institute of Medical Sciences was established as an institution of national importance by an Act of Parliament with the objects to develop patterns of teaching in Undergraduate and Post-graduate Medical Education in all its branches so as to demonstrate a high standard of Medical Education in India; to bring together in one place educational facilities of the highest order for the training of personnel in all important branches of health activity; and to attain self-sufficiency in Post-graduate Medical Education.</para>
+	 <br><br><hr>
+	 <center>All Copyrigtht 2018 Reserved : www.aiims.edu </center><hr>
+</body>
+</html>
